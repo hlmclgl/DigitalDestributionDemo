@@ -17,8 +17,8 @@ public class Main {
 		user.setFirstName("Ahmet Hilmi");
 		user.setLastName("Çiloðlu");
 		user.setEmail("hlmclgl@gmail.com");
-		user.setBirthYear("2001");
-		user.setNationalityId("24421885688");
+		user.setBirthYear("2000");
+		user.setNationalityId("10000000000");
 		user.setPassword("12345");
 		
 		
@@ -38,6 +38,7 @@ public class Main {
 		
 		SaleManager saleManager = new SaleManager();
 		saleManager.sale(user, game);
+		
 	}
 
 }
